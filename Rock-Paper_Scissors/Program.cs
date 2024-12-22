@@ -13,6 +13,7 @@ namespace Rock_Paper_Scissors
 
             Console.WriteLine($"Wybór komputera to {wyborKomputer}");
             Console.WriteLine($"Wybór gracza to {wyborGracza}");
+            Console.WriteLine(WygranaPrzegrana());
         }
          public static string Computer()
          {
@@ -46,10 +47,30 @@ namespace Rock_Paper_Scissors
                 string  choice = "Nożyce";
                 return choice;
             }
-            return "sds"; 
+            return null; 
         
         }
 
+        public static int WygranaPrzegrana()
+        {
+            int wyborGracza = int.Parse(Player());
+            int wyborKomputera = int.Parse(Computer());
+
+            if (wyborGracza > wyborKomputera)
+            {
+                Console.WriteLine("Wygrałeś!");
+                return 0;
+            }
+            else if (wyborGracza == wyborKomputera)
+            {
+                Console.WriteLine("Remis!");
+                return 0;
+            }
+            else
+            {
+                Console.WriteLine("Przegrałeś!");
+                return 0;
+            }
 
 
 
@@ -59,7 +80,7 @@ namespace Rock_Paper_Scissors
 
 
 
-        
-            
+
+        }      
     }
 }

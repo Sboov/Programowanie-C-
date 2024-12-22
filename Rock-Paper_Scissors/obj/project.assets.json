@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Program Files (x86)\\Programowanie\\Prywatne\\Rock-Paper_Scissors\\Rock-Paper_Scissors.csproj",
+      "projectUniqueName": "E:\\Program Files (x86)\\Programowanie\\Prywatne\\Programowanie-C-\\Rock-Paper_Scissors\\Rock-Paper_Scissors.csproj",
       "projectName": "Rock-Paper_Scissors",
-      "projectPath": "E:\\Program Files (x86)\\Programowanie\\Prywatne\\Rock-Paper_Scissors\\Rock-Paper_Scissors.csproj",
+      "projectPath": "E:\\Program Files (x86)\\Programowanie\\Prywatne\\Programowanie-C-\\Rock-Paper_Scissors\\Rock-Paper_Scissors.csproj",
       "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
-      "outputPath": "E:\\Program Files (x86)\\Programowanie\\Prywatne\\Rock-Paper_Scissors\\obj\\",
+      "outputPath": "E:\\Program Files (x86)\\Programowanie\\Prywatne\\Programowanie-C-\\Rock-Paper_Scissors\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Program Files (x86)\\Programy\\vsinstaller\\NuGetPackages"
